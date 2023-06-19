@@ -36,7 +36,7 @@ input {
 
 input,
 textarea {
-    border: none !important;
+    border: black solid;
     margin-bottom: 4%;
 }
 
