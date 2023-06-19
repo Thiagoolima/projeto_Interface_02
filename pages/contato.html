@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tech Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="logo">
+                    <a href="../index.html"><img src="../imagens/logo_tech_solutions.png" width="22%"
+                            alt="logo tech solutions"></a>
+                </div>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link" href="../pages/sobreNos.html">Sobre nós</a>
+                            <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="../pages/servicos.html">Serviços</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/contato.html">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="content">
+            <div class="divisoria"></div>
+            <div class="form-container">
+                <form>
+                    <h1>Contato:</h1>
+                    <div class="mb-3">
+                        <label for="formInputNome">Nome</label>
+                        <input type="text" class="form-control input-nome" id="formInputNome" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formInputEmail">Email</label>
+                        <input type="email" class="form-control input-email" id="formInputEmail" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formInputTelefone">Telefone</label>
+                        <input type="phone" class="form-control input-telefone" id="formInputTelefone" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formInputMensagem">Mensagem</label>
+                        <textarea class="form-control textarea-mensagem" id="formInputMensagem" rows="3"
+                            placeholder=""></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="informacoesContato">
+                <h1 id="titulo-contato">Venha nos conhecer!</h1>
+                <h1 class="subtitulo-contatos">
+                    <strong>Endereço</strong><br>
+                </h1>
+                <span>
+                    <i class="fas fa-location-dot"></i>
+                    <p>SGAS Quadra 613/614, Via L2 Sul - Asa Sul <br>
+                        Brasília - DF, 70200-730</p>
+                </span>
+                <h1 class="subtitulo-contatos">
+                    <strong>Telefone</strong><br>
+                </h1>
+                <span>
+                    <i class="fab fa-whatsapp"></i>
+                    <p>+55 (61) 99460-3826</p>
+                </span>
+                <h1 class="subtitulo-contatos">
+                    <strong>Horário de funcionamento</strong><br>
+                </h1>
+                <span>
+                    <i class="far fa-clock"></i>
+                    <p>Seg à Sex: 08:00 às 18:00</p>
+                </span>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.3970669565783!2d-47.91472492394211!3d-15.83571482397585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a255ac54e5865%3A0xccb35721f77a92e8!2sCentro%20Universit%C3%A1rio%20IESB%20-%20Campus%20Bras%C3%ADlia%20(Asa%20Sul)!5e0!3m2!1spt-BR!2sbr!4v1687093086464!5m2!1spt-BR!2sbr"
+                    width="100%" height="90.25%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myModalLabel">Confirmação</h5>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p id="modalMessage"></p>
+                            <p class="alerta">***Esse modal aparece apenas para confirmar o funcionamento do formulário,
+                                pelo fato de este ser um projeto educacional não existe processamento real do
+                                formulário!
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="botao-flutuante">
+                <a href="https://api.whatsapp.com/send?phone=5561994603826">
+                    <img src="../imagens/botao_whatsapp.png" width="100%" alt="Botão com Imagem whatsapp">
+                </a>
+            </div>
+        </main>
+        <footer class="bg-light text-center">
+            <div class="rodape">
+                <h5>contato@techsolutions.com.br</h5>
+                <h5>Copyright &copy Tech Solutions - 2023. Todos os direitos reservados</h5>
+                <h5 class="sig">Siga-nos
+                    <ul class="redes-sociais">
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </h5>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/af3a0f7ad2.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

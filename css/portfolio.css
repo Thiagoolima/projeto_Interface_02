@@ -1,0 +1,52 @@
+.card-title {
+    height: 4rem;
+    overflow: hidden;
+}
+
+.card img {
+    width: auto;
+    height: auto;
+}
+
+#intro {
+    background-color: transparent !important;
+}
+
+.card-text {
+    height: 6rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
+
+.row {
+    padding-top: 2.5%;
+}
+
+.row h1 {
+    font-family: Inter-Bold;
+    font-size: 32px;
+    color: #108ccb;
+}
+
+.row p,
+.row h5 {
+    font-family: inter;
+    font-size: 20px;
+    color: #108ccb;
+}
+
+.row h5 {
+    font-weight: 600;
+}
+
+.container h2 {
+    margin-bottom: -1%;
+    margin-top: 3%;
+    color: #108ccb;
+    font-family: Inter-bold;
+    font-size: 26px;
+}
